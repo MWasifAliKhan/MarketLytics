@@ -73,3 +73,48 @@ for i in range(len(data)):
 df = pd.DataFrame(sep_data,columns=["Department","Campaign Code","Campagin Name","Start date","Channel","Optional element (1)","Optional element (2)","Optional element (3)","Optional element (4)","Optional element (5)","Optional element (6)","Optional element (7)"])
 
 print(df.head())
+
+
+
+
+
+
+#____SAMPLE OUTPUT____#
+
+#   Department Campaign Code Campagin Name  \
+# 0       BIOX           WEB          BioX   
+# 1         CM           GEN          BIOX   
+# 2         CM           GEN          BIOX   
+# 3       BIOX           WEB          BioX   
+# 4         CM           GEN          BIOX   
+
+#                              Start date                  Channel  \
+# 0                              20192904           Qiagen Website   
+# 1                                  0719                     SMOR   
+# 2  IPA-OS-UGM-Cambridge2019-SaveTheDate                     0719   
+# 3                              20191605  tv.qiagenbioinformatics   
+# 4                                  0719                     SMOR   
+
+#                Optional element (1) Optional element (2) Optional element (3)  \
+# 0  Ingenuity Pathway Analysis (IPA)               BioxBA                 Must   
+# 1                               IPA             LinkedIn                 None   
+# 2                                EM                  CRM                 2924   
+# 3                           Webinar               BioxBA                 Must   
+# 4                               IPA              Twitter                 None   
+
+#   Optional element (4) Optional element (5) Optional element (6)  \
+# 0                  Win                    1                 BIOX   
+# 1                 None                 None                 None   
+# 2                 5104                 None                 None   
+# 3                  Win                    1                 BIOX   
+# 4                 None                 None                 None   
+
+# Optional element (7)  
+# 0                 None  
+# 1                 None  
+# 2                 None  
+# 3                 None  
+# 4                 None  
+
+# Process finished with exit code 0
+
